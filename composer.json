@@ -3,7 +3,13 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Pest382GroupNotExecutingPhpunit\\Pest382GroupNotExecutingPhpunit\\": "src/"
+            "Pest382GroupNotExecutingPhpunit\\Pest382GroupNotExecutingPhpunit\\": "src/",
+	    "Tests\\": "tests/" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     },
     "require-dev": {
