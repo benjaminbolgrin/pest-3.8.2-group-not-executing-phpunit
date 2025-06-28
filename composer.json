@@ -6,5 +6,12 @@
             "Pest382GroupNotExecutingPhpunit\\Pest382GroupNotExecutingPhpunit\\": "src/"
         }
     },
-    "require": {}
+    "require-dev": {
+        "pestphp/pest": "3.8.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
 }
