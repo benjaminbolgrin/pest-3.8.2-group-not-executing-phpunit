@@ -1,0 +1,10 @@
+{
+    "name": "pest-3.8.2-group-not-executing-phpunit/pest-3.8.2-group-not-executing-phpunit",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Pest382GroupNotExecutingPhpunit\\Pest382GroupNotExecutingPhpunit\\": "src/"
+        }
+    },
+    "require": {}
+}
